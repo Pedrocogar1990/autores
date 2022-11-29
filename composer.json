@@ -1,0 +1,20 @@
+{
+    "name": "pedro/pdo-libros-autores",
+    "description": "pdo libors autores",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pedro"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "fakerphp/faker": "^1.20"
+    }
+}
